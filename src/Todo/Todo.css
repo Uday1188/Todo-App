@@ -1,0 +1,146 @@
+
+body {
+    background-color: beige;
+    margin: 0;
+    padding: 20px;
+}
+
+.todo-app {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ 
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 25px;
+    font-family: Arial, sans-serif;
+}
+
+.app-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.app-header h1 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.task-form {
+    display: flex;
+    margin-bottom: 25px;
+    gap: 10px;
+    
+}
+
+.task-input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.task-input:focus {
+    outline: none;
+    border-color: #5d5fef;
+    box-shadow: 0 0 0 2px rgba(93, 95, 239, 0.2);
+}
+
+.add-button {
+    padding: 0 20px;
+    background: #5d5fef;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.add-button:hover {
+    background: #4a4cbf;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.task-text {
+    flex-grow: 1;
+    padding: 0 10px;
+}
+
+.completed .task-text {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.task-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.task-actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 4px;
+    transition: transform 0.2s;
+}
+
+.task-actions button:hover {
+    transform: scale(1.1);
+}
+
+.complete-button {
+    color: #10b981;
+}
+
+.delete-button {
+    color: #ef4444;
+}
+
+.empty-state {
+    text-align: center;
+    color: #888;
+    padding: 30px 20px;
+    font-style: italic;
+}
+
+.Clear {
+    text-align: center;
+    margin: 20px 0; 
+}
+
+
+.btn-danger {
+    background: #ff4444;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+.btn-danger:hover {
+    background: #cc0000;
+}
+
+
+.task-list {
+    margin-bottom: 15px;
+}
